@@ -3,11 +3,70 @@
 
 /* Show Grid 
 .showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+
+	background: url("../img/grid-bg.png") repeat-y
+	
 } */
+
 
 body{
 
-	background-color: orange;
+	background: url("http://urumix.com/images/2013/04/wood-siding-1552x1415-free-wood-texture-grunge-wood-px-21234--urumix.com.jpg");
+	z-index: -1;
 
 }
+
+h1{
+
+	background-color: #29405D;
+	border-radius: 0px 30px 0px 30px;
+	font-size: 64px;
+	margin: 0px 510px 0px 0px;
+	text-indent: 10px;
+	color: white;
+
+
+}
+
+h2, .grid_4 {
+
+	position: relative;
+	margin: 25px 170px 10px 520px;
+	z-index: 1;
+
+
+}
+
+
+p{
+
+	position: relative;
+	margin: 10px 170px 10px 540px;
+	z-index: 1;
+
+}
+
+.paper{
+	
+	display: block;
+	position: absolute;
+	margin: 0px 130px 10px 490px;
+	z-index: 0;
+	height: 652.5px;
+	
+}
+
+.selfie{
+
+	display: block;
+	position: absolute;
+	margin: 0px 100px 10px 30px;
+	z-index: 0;
+	height: 652.5px;
+
+}
+
+
+
+
+
